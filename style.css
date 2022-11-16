@@ -15,7 +15,7 @@ body {
     display: flex;
     background-image: url(images/pattern-background-desktop.svg);
     background-size: cover;
-    background-position: right -20vw bottom 40vh, left 45vw top 40vh;
+    background-position: right -25vw bottom 40vh, left 45vw top 40vh;
     background-repeat: no-repeat;
     flex-direction: column;
     justify-content: center;
@@ -24,7 +24,7 @@ body {
     font-family: 'Red Hat Display', sans-serif;
     font-size: 16px;
 }
-.container {
+main {
     background-color: white;
     text-align: center;
     max-width: 435px;
@@ -102,7 +102,7 @@ button:hover, .payment a:hover  {
     body {
         background-image: url('images/pattern-background-mobile.svg');
     }
-    .container {
+    main {
         max-width: 430px;
     }
     button {
@@ -113,8 +113,3 @@ button:hover, .payment a:hover  {
         padding: 20px;
     }
 }
-@media (max-width: 425px) {
-    .container {
-        max-width: 380px;
-    }
-} 
